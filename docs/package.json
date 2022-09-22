@@ -1,4 +1,5 @@
 {
+  "homepage": "https://texanraj.github.io/blog",
   "name": "reveal.js",
   "version": "4.3.1",
   "description": "The HTML Presentation Framework",
@@ -8,18 +9,19 @@
   "module": "dist/reveal.esm.js",
   "license": "MIT",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "gulp test",
     "start": "gulp serve",
     "build": "gulp build"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "https://hakim.se"
+    "name": "Raj",
+    "email": "sanstorage@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/texanraj/blog.git"
   },
   "engines": {
     "node": ">=10.0.0"
